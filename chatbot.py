@@ -1,4 +1,9 @@
-import datetime
+print('***  *  *  ****  *****  ****  ****  *****')
+print('*    ****  ****    *    *  *  *  *    *  ')
+print('*    *  *  *  *    *    ****  *  *    *  ')
+print('***  *  *  *  *    *    *  *  *  *    *  ')
+print('                        ****  ****    *  ')
+import datetime  
 from datetime import date
 import pyowm
 import webbrowser
@@ -37,7 +42,7 @@ def temp1():
     sf=owm.weather_at_place(location+','+countryid)
     weather=sf.get_weather()
     print(weather.get_temperature('celsius')['temp'],'degree celsius')
-def temp2():
+def temp2():  #error
     location1=enter[22:]
     countryid=input('enter countryid')
     owm=pyowm.OWM('6ec36b52be3e1347f1cf9bf07a73c37d')
@@ -166,5 +171,3 @@ while True:
  else:
     print('i will search it for you in the web')
     web()
-    
-
