@@ -1,0 +1,5 @@
+--INSTALL ALL THESE-
+pip install pyowm
+pip install PyDictionary
+pip install feedparser
+pip install openweather
